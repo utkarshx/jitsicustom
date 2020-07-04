@@ -1,5 +1,5 @@
-ARG JITSI_REPO=jitsi
-FROM ${JITSI_REPO}/base
+ARG JITSI_REPO=utkarshx
+FROM utkarshx/vcbasecustom
 
 ADD https://dl.eff.org/certbot-auto /usr/local/bin/
 
